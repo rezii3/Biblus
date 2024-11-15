@@ -114,12 +114,13 @@
             ],
             "tsConfig": "tsconfig.spec.json",
             "inlineStyleLanguage": "scss",
-            "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
-            ],
+          "assets": [
+  {
+    "glob": "**/*",
+    "input": "public",
+    "output": "/assets"
+  }
+],
             "styles": [
               "src/styles.scss"
             ],
